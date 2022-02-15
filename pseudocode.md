@@ -2,10 +2,10 @@ START
 
 ## French Press Coffee
 
-// function brewCoffee() {
-//
-//var grounds = 2T;
-//var container = (coffee, water);
+<!--function brewCoffee() {
+
+var grounds = 2T;
+var container = (coffee, water); -->
 
 INPUT coffee
 
