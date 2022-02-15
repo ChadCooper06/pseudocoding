@@ -2,10 +2,10 @@ START
 
 ## French Press Coffee
 
-function brewCoffee() {
+/* function brewCoffee() {
 
 var grounds = 2T;
-var container = (coffee, water);
+var container = (coffee, water); */
 
 INPUT coffee
 
@@ -15,7 +15,7 @@ INPUT coffee
      * is it empty?-if yes add them, if no then add water
 
 
-  if (container = empty) {
+  \* if (container = empty) {
     return "add grounds";
     } else {
     return "add water"
@@ -23,7 +23,7 @@ INPUT coffee
 
 function coffeeType(type) {
   let type = ("light", "medium", "dark")
-}
+} *\
 
 INPUT water
 ### User adds 12 oz boiling water to the container
