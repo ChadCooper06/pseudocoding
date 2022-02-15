@@ -66,7 +66,8 @@ brewTime(type, time) {<br>
       return "type" + time * 2;<br>
       } else {<br>
       return "type" + time;<br>
-      }
+      }<br>
+  }
 <hr>
 
 ### Add lid and depress filter for 30 secs;
