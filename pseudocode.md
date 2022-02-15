@@ -14,8 +14,8 @@ INPUT coffee
   * place them into the container
      * is it empty?-if yes add them, if no then add water
 
-
-  \* if (container = empty) {
+<!--
+    if (container = empty) {
     return "add grounds";
     } else {
     return "add water"
@@ -23,7 +23,7 @@ INPUT coffee
 
 function coffeeType(type) {
   let type = ("light", "medium", "dark")
-} *\
+} -->
 
 INPUT water
 ### User adds 12 oz boiling water to the container
@@ -33,9 +33,9 @@ INPUT water
     IF water is less than 12 oz add water
     ELSE brew
     
-  for (i=0, i<12, i++) {
+  <!--for (i=0, i<12, i++) {
     if (i
-    
+    -->
   ENDFOR
   
 COMPUTE brew time
@@ -54,7 +54,7 @@ INCREMENT time based on type-dark to light
       ENDCASE
   ENDFOR
   
-/* brewTime(type, time) {
+<!-- brewTime(type, time) {
   const time = 120;
   
   for (type of coffeeType(type)) {
@@ -64,7 +64,7 @@ INCREMENT time based on type-dark to light
       return time * 3;
       } else {
       return time:
-      } */
+      } -->
       
 
 ### Add lid and depress filter
