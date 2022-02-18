@@ -24,7 +24,6 @@ ENDWHILE
 function addGrounds() {<br>
     while (container = empty) {<br>
     return "add grounds";<br>
-    }<br>
 }
 <hr>
 
